@@ -1,0 +1,435 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "coverlet.collector/1.3.0": {
+        "type": "package",
+        "build": {
+          "build/netstandard1.0/coverlet.collector.targets": {}
+        }
+      },
+      "Microsoft.CodeCoverage/16.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {}
+        },
+        "build": {
+          "build/netstandard1.0/Microsoft.CodeCoverage.props": {},
+          "build/netstandard1.0/Microsoft.CodeCoverage.targets": {}
+        }
+      },
+      "Microsoft.NET.Test.Sdk/16.7.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CodeCoverage": "16.7.1"
+        },
+        "build": {
+          "build/net40/Microsoft.NET.Test.Sdk.props": {},
+          "build/net40/Microsoft.NET.Test.Sdk.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Microsoft.NET.Test.Sdk.props": {}
+        }
+      },
+      "xunit/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "xunit.analyzers": "0.10.0",
+          "xunit.assert": "[2.4.1]",
+          "xunit.core": "[2.4.1]"
+        }
+      },
+      "xunit.abstractions/2.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net35/xunit.abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/net35/xunit.abstractions.dll": {}
+        }
+      },
+      "xunit.analyzers/0.10.0": {
+        "type": "package"
+      },
+      "xunit.assert/2.4.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.1/xunit.assert.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/xunit.assert.dll": {}
+        }
+      },
+      "xunit.core/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "xunit.extensibility.core": "[2.4.1]",
+          "xunit.extensibility.execution": "[2.4.1]"
+        },
+        "build": {
+          "build/xunit.core.props": {},
+          "build/xunit.core.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/xunit.core.props": {},
+          "buildMultiTargeting/xunit.core.targets": {}
+        }
+      },
+      "xunit.extensibility.core/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "xunit.abstractions": "2.0.3"
+        },
+        "compile": {
+          "lib/net452/xunit.core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/xunit.core.dll": {}
+        }
+      },
+      "xunit.extensibility.execution/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "xunit.extensibility.core": "[2.4.1]"
+        },
+        "compile": {
+          "lib/net452/xunit.execution.desktop.dll": {}
+        },
+        "runtime": {
+          "lib/net452/xunit.execution.desktop.dll": {}
+        }
+      },
+      "xunit.runner.visualstudio/2.4.3": {
+        "type": "package",
+        "build": {
+          "build/net452/xunit.runner.visualstudio.props": {}
+        }
+      },
+      "MathLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "compile": {
+          "bin/placeholder/MathLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MathLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "coverlet.collector/1.3.0": {
+      "sha512": "t8pnf5SX2ya0RX4vjoxsbhDMQCZJcpPun2neHKJ4FouMmObylo25FvoOydvf3Bl+l+IzWw7u2vjEeCBHnleB9g==",
+      "type": "package",
+      "path": "coverlet.collector/1.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/netstandard1.0/Microsoft.DotNet.PlatformAbstractions.dll",
+        "build/netstandard1.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "build/netstandard1.0/Microsoft.Extensions.DependencyInjection.dll",
+        "build/netstandard1.0/Microsoft.Extensions.DependencyModel.dll",
+        "build/netstandard1.0/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "build/netstandard1.0/Microsoft.TestPlatform.CoreUtilities.dll",
+        "build/netstandard1.0/Microsoft.TestPlatform.PlatformAbstractions.dll",
+        "build/netstandard1.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll",
+        "build/netstandard1.0/Mono.Cecil.Mdb.dll",
+        "build/netstandard1.0/Mono.Cecil.Pdb.dll",
+        "build/netstandard1.0/Mono.Cecil.Rocks.dll",
+        "build/netstandard1.0/Mono.Cecil.dll",
+        "build/netstandard1.0/Newtonsoft.Json.dll",
+        "build/netstandard1.0/NuGet.Frameworks.dll",
+        "build/netstandard1.0/coverlet.collector.deps.json",
+        "build/netstandard1.0/coverlet.collector.dll",
+        "build/netstandard1.0/coverlet.collector.pdb",
+        "build/netstandard1.0/coverlet.collector.targets",
+        "build/netstandard1.0/coverlet.core.dll",
+        "build/netstandard1.0/coverlet.core.pdb",
+        "coverlet-icon.png",
+        "coverlet.collector.1.3.0.nupkg.sha512",
+        "coverlet.collector.nuspec"
+      ]
+    },
+    "Microsoft.CodeCoverage/16.7.1": {
+      "sha512": "PhSppbk+kvAyD9yGJIcBRJ/XYwY+21YK88l22PGTtixaxNdjnx1idVKh88LCGwKaTL8HhlnQ41VmBiBdZJzIQw==",
+      "type": "package",
+      "path": "microsoft.codecoverage/16.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/netstandard1.0/CodeCoverage/CodeCoverage.config",
+        "build/netstandard1.0/CodeCoverage/CodeCoverage.exe",
+        "build/netstandard1.0/CodeCoverage/amd64/covrun64.dll",
+        "build/netstandard1.0/CodeCoverage/amd64/msdia140.dll",
+        "build/netstandard1.0/CodeCoverage/codecoveragemessages.dll",
+        "build/netstandard1.0/CodeCoverage/covrun32.dll",
+        "build/netstandard1.0/CodeCoverage/msdia140.dll",
+        "build/netstandard1.0/Microsoft.CodeCoverage.props",
+        "build/netstandard1.0/Microsoft.CodeCoverage.targets",
+        "build/netstandard1.0/Microsoft.VisualStudio.TraceDataCollector.dll",
+        "build/netstandard1.0/cs/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/de/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/es/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/fr/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/it/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/ja/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/ko/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/pl/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/pt-BR/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/ru/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/tr/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/zh-Hans/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/zh-Hant/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "lib/net45/Microsoft.VisualStudio.CodeCoverage.Shim.dll",
+        "lib/netcoreapp1.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll",
+        "microsoft.codecoverage.16.7.1.nupkg.sha512",
+        "microsoft.codecoverage.nuspec"
+      ]
+    },
+    "Microsoft.NET.Test.Sdk/16.7.1": {
+      "sha512": "7T3XYuLT2CRMZXwlp8p4cEEf6y7VifxTdKwYNzCYp31CN4iyrcDKneIJvNTo0YVnTxJn+CSlGVlUnZHUlAwt9A==",
+      "type": "package",
+      "path": "microsoft.net.test.sdk/16.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net40/Microsoft.NET.Test.Sdk.props",
+        "build/net40/Microsoft.NET.Test.Sdk.targets",
+        "build/netcoreapp2.1/Microsoft.NET.Test.Sdk.Program.cs",
+        "build/netcoreapp2.1/Microsoft.NET.Test.Sdk.Program.fs",
+        "build/netcoreapp2.1/Microsoft.NET.Test.Sdk.Program.vb",
+        "build/netcoreapp2.1/Microsoft.NET.Test.Sdk.props",
+        "build/netcoreapp2.1/Microsoft.NET.Test.Sdk.targets",
+        "build/uap10.0/Microsoft.NET.Test.Sdk.props",
+        "buildMultiTargeting/Microsoft.NET.Test.Sdk.props",
+        "microsoft.net.test.sdk.16.7.1.nupkg.sha512",
+        "microsoft.net.test.sdk.nuspec"
+      ]
+    },
+    "xunit/2.4.1": {
+      "sha512": "XNR3Yz9QTtec16O0aKcO6+baVNpXmOnPUxDkCY97J+8krUYxPvXT1szYYEUdKk4sB8GOI2YbAjRIOm8ZnXRfzQ==",
+      "type": "package",
+      "path": "xunit/2.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "xunit.2.4.1.nupkg.sha512",
+        "xunit.nuspec"
+      ]
+    },
+    "xunit.abstractions/2.0.3": {
+      "sha512": "pot1I4YOxlWjIb5jmwvvQNbTrZ3lJQ+jUGkGjWE3hEFM0l5gOnBWS+H3qsex68s5cO52g+44vpGzhAt+42vwKg==",
+      "type": "package",
+      "path": "xunit.abstractions/2.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/xunit.abstractions.dll",
+        "lib/net35/xunit.abstractions.xml",
+        "lib/netstandard1.0/xunit.abstractions.dll",
+        "lib/netstandard1.0/xunit.abstractions.xml",
+        "lib/netstandard2.0/xunit.abstractions.dll",
+        "lib/netstandard2.0/xunit.abstractions.xml",
+        "xunit.abstractions.2.0.3.nupkg.sha512",
+        "xunit.abstractions.nuspec"
+      ]
+    },
+    "xunit.analyzers/0.10.0": {
+      "sha512": "4/IDFCJfIeg6bix9apmUtIMwvOsiwqdEexeO/R2D4GReIGPLIRODTpId/l4LRSrAJk9lEO3Zx1H0Zx6uohJDNg==",
+      "type": "package",
+      "path": "xunit.analyzers/0.10.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/xunit.analyzers.dll",
+        "tools/install.ps1",
+        "tools/uninstall.ps1",
+        "xunit.analyzers.0.10.0.nupkg.sha512",
+        "xunit.analyzers.nuspec"
+      ]
+    },
+    "xunit.assert/2.4.1": {
+      "sha512": "O/Oe0BS5RmSsM+LQOb041TzuPo5MdH2Rov+qXGS37X+KFG1Hxz7kopYklM5+1Y+tRGeXrOx5+Xne1RuqLFQoyQ==",
+      "type": "package",
+      "path": "xunit.assert/2.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard1.1/xunit.assert.dll",
+        "lib/netstandard1.1/xunit.assert.xml",
+        "xunit.assert.2.4.1.nupkg.sha512",
+        "xunit.assert.nuspec"
+      ]
+    },
+    "xunit.core/2.4.1": {
+      "sha512": "Zsj5OMU6JasNGERXZy8s72+pcheG6Q15atS5XpZXqAtULuyQiQ6XNnUsp1gyfC6WgqScqMvySiEHmHcOG6Eg0Q==",
+      "type": "package",
+      "path": "xunit.core/2.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/xunit.core.props",
+        "build/xunit.core.targets",
+        "buildMultiTargeting/xunit.core.props",
+        "buildMultiTargeting/xunit.core.targets",
+        "xunit.core.2.4.1.nupkg.sha512",
+        "xunit.core.nuspec"
+      ]
+    },
+    "xunit.extensibility.core/2.4.1": {
+      "sha512": "yKZKm/8QNZnBnGZFD9SewkllHBiK0DThybQD/G4PiAmQjKtEZyHi6ET70QPU9KtSMJGRYS6Syk7EyR2EVDU4Kg==",
+      "type": "package",
+      "path": "xunit.extensibility.core/2.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/xunit.core.dll",
+        "lib/net452/xunit.core.dll.tdnet",
+        "lib/net452/xunit.core.xml",
+        "lib/net452/xunit.runner.tdnet.dll",
+        "lib/net452/xunit.runner.utility.net452.dll",
+        "lib/netstandard1.1/xunit.core.dll",
+        "lib/netstandard1.1/xunit.core.xml",
+        "xunit.extensibility.core.2.4.1.nupkg.sha512",
+        "xunit.extensibility.core.nuspec"
+      ]
+    },
+    "xunit.extensibility.execution/2.4.1": {
+      "sha512": "7e/1jqBpcb7frLkB6XDrHCGXAbKN4Rtdb88epYxCSRQuZDRW8UtTfdTEVpdTl8s4T56e07hOBVd4G0OdCxIY2A==",
+      "type": "package",
+      "path": "xunit.extensibility.execution/2.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/xunit.execution.desktop.dll",
+        "lib/net452/xunit.execution.desktop.xml",
+        "lib/netstandard1.1/xunit.execution.dotnet.dll",
+        "lib/netstandard1.1/xunit.execution.dotnet.xml",
+        "xunit.extensibility.execution.2.4.1.nupkg.sha512",
+        "xunit.extensibility.execution.nuspec"
+      ]
+    },
+    "xunit.runner.visualstudio/2.4.3": {
+      "sha512": "kZZSmOmKA8OBlAJaquPXnJJLM9RwQ27H7BMVqfMLUcTi9xHinWGJiWksa3D4NEtz0wZ/nxd2mogObvBgJKCRhQ==",
+      "type": "package",
+      "path": "xunit.runner.visualstudio/2.4.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "build/net452/xunit.abstractions.dll",
+        "build/net452/xunit.runner.reporters.net452.dll",
+        "build/net452/xunit.runner.utility.net452.dll",
+        "build/net452/xunit.runner.visualstudio.props",
+        "build/net452/xunit.runner.visualstudio.testadapter.dll",
+        "build/netcoreapp2.1/xunit.abstractions.dll",
+        "build/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll",
+        "build/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll",
+        "build/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll",
+        "build/netcoreapp2.1/xunit.runner.visualstudio.props",
+        "build/uap10.0.16299/xunit.runner.reporters.netstandard15.dll",
+        "build/uap10.0.16299/xunit.runner.utility.netstandard15.dll",
+        "build/uap10.0.16299/xunit.runner.utility.uwp10.dll",
+        "build/uap10.0.16299/xunit.runner.utility.uwp10.pri",
+        "build/uap10.0.16299/xunit.runner.visualstudio.props",
+        "build/uap10.0.16299/xunit.runner.visualstudio.targets",
+        "build/uap10.0.16299/xunit.runner.visualstudio.uwp.testadapter.dll",
+        "build/uap10.0.16299/xunit.runner.visualstudio.uwp.testadapter.pri",
+        "logo-512-transparent.png",
+        "xunit.runner.visualstudio.2.4.3.nupkg.sha512",
+        "xunit.runner.visualstudio.nuspec"
+      ]
+    },
+    "MathLib/1.0.0": {
+      "type": "project",
+      "path": "../MathLib/MathLib.csproj",
+      "msbuildProject": "../MathLib/MathLib.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "MathLib >= 1.0.0",
+      "Microsoft.NET.Test.Sdk >= 16.7.1",
+      "coverlet.collector >= 1.3.0",
+      "xunit >= 2.4.1",
+      "xunit.runner.visualstudio >= 2.4.3"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\tuann\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Teaching\\LuuTru\\Teaching2\\QA_QC_Software\\Slide bai giang\\UnitTest\\2021\\UnitTestXunit\\MathLib.Tests\\MathLib.Tests.csproj",
+      "projectName": "MathLib.Tests",
+      "projectPath": "D:\\Teaching\\LuuTru\\Teaching2\\QA_QC_Software\\Slide bai giang\\UnitTest\\2021\\UnitTestXunit\\MathLib.Tests\\MathLib.Tests.csproj",
+      "packagesPath": "C:\\Users\\tuann\\.nuget\\packages\\",
+      "outputPath": "D:\\Teaching\\LuuTru\\Teaching2\\QA_QC_Software\\Slide bai giang\\UnitTest\\2021\\UnitTestXunit\\MathLib.Tests\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\tuann\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/evolutionwellness/_packaging/framework/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "projectReferences": {
+            "D:\\Teaching\\LuuTru\\Teaching2\\QA_QC_Software\\Slide bai giang\\UnitTest\\2021\\UnitTestXunit\\MathLib\\MathLib.csproj": {
+              "projectPath": "D:\\Teaching\\LuuTru\\Teaching2\\QA_QC_Software\\Slide bai giang\\UnitTest\\2021\\UnitTestXunit\\MathLib\\MathLib.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "targetAlias": "net472",
+        "dependencies": {
+          "Microsoft.NET.Test.Sdk": {
+            "target": "Package",
+            "version": "[16.7.1, )"
+          },
+          "coverlet.collector": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[1.3.0, )"
+          },
+          "xunit": {
+            "target": "Package",
+            "version": "[2.4.1, )"
+          },
+          "xunit.runner.visualstudio": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[2.4.3, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.209\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

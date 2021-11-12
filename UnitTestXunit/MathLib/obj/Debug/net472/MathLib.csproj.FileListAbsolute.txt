@@ -1,0 +1,8 @@
+D:\Teaching\LuuTru\Teaching2\QA_QC_Software\Slide bai giang\UnitTest\2021\UnitTestXunit\MathLib\bin\Debug\net472\MathLib.dll
+D:\Teaching\LuuTru\Teaching2\QA_QC_Software\Slide bai giang\UnitTest\2021\UnitTestXunit\MathLib\bin\Debug\net472\MathLib.pdb
+D:\Teaching\LuuTru\Teaching2\QA_QC_Software\Slide bai giang\UnitTest\2021\UnitTestXunit\MathLib\obj\Debug\net472\MathLib.csprojAssemblyReference.cache
+D:\Teaching\LuuTru\Teaching2\QA_QC_Software\Slide bai giang\UnitTest\2021\UnitTestXunit\MathLib\obj\Debug\net472\MathLib.csproj.CoreCompileInputs.cache
+D:\Teaching\LuuTru\Teaching2\QA_QC_Software\Slide bai giang\UnitTest\2021\UnitTestXunit\MathLib\obj\Debug\net472\MathLib.AssemblyInfo.cs
+D:\Teaching\LuuTru\Teaching2\QA_QC_Software\Slide bai giang\UnitTest\2021\UnitTestXunit\MathLib\obj\Debug\net472\MathLib.dll
+D:\Teaching\LuuTru\Teaching2\QA_QC_Software\Slide bai giang\UnitTest\2021\UnitTestXunit\MathLib\obj\Debug\net472\MathLib.pdb
+d:\Teaching\LuuTru\Teaching2\QA_QC_Software\Slide bai giang\UnitTest\2021\UnitTestXunit\MathLib\obj\Debug\net472\MathLib.AssemblyInfoInputs.cache
